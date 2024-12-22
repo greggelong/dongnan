@@ -45,9 +45,9 @@ let scrollXChinese = 0; // Horizontal position for the Chinese fortune
 let englishText = ""; // Stores the current English fortune
 let chineseText = ""; // Stores the current Chinese fortune
 
-//function preload() {
-// img = loadImage("coot.png");
-//}
+function preload() {
+  img = loadImage("coot.png");
+}
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -99,8 +99,8 @@ function draw() {
   push();
   translate(width / 2, height / 2);
   rotate(frameCount);
-  //image(img, 0, 0);
-  rect(0, 0, 200, 200);
+  image(img, 0, 0);
+  //rect(0, 0, 200, 200);
   pop();
 
   // Scroll fortunes
