@@ -53,6 +53,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
   angleMode(DEGREES);
+  rectMode(CENTER);
+  pixelDensity(1);
 
   // Create a dropdown for selecting a color
   colorSelector = createSelect();
