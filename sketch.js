@@ -107,15 +107,15 @@ function draw() {
   scrollFortunes();
 
   // Display the scrolling fortunes
-  textSize(24);
+  textSize(44);
   textAlign(LEFT, CENTER);
   fill(0);
 
   // Chinese fortune scrolling above
-  text(chineseText, scrollXChinese, height - height / 4 - 50);
+  text(chineseText, scrollXChinese, height - height / 4 - 80);
 
   // English fortune scrolling below
-  text(englishText, scrollXEnglish, height - height / 4 + 10);
+  text(englishText, scrollXEnglish, height - height / 4 + 20);
 }
 
 function updateColor() {
