@@ -82,11 +82,11 @@ function setup() {
   numberSelector.style("padding", "10px"); // Add padding
 
   // Create a "Show Fortune" button
-  speakButton = createButton("Show Fortune");
+  speakButton = createButton("Choose and press to Show Fortune");
   speakButton.position(230, 10);
   speakButton.style("font-size", "30px"); // Larger font size
   speakButton.style("width", "250px"); // Wider button
-  speakButton.style("height", "70px"); // Taller button
+  speakButton.style("height", "250px"); // Taller button
   speakButton.mousePressed(showFortune);
 
   resetScroll(); // Initialize scrolling positions
