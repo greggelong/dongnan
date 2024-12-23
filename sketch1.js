@@ -46,7 +46,7 @@ let englishText = ""; // Stores the current English fortune
 let chineseText = ""; // Stores the current Chinese fortune
 
 function preload() {
-  img = loadImage("coot.png");
+  img = loadImage("coot1.png");
 }
 
 function setup() {
@@ -55,6 +55,7 @@ function setup() {
   angleMode(DEGREES);
   rectMode(CENTER);
   pixelDensity(1);
+  img.resize(width / 2, 0);
 
   // Create a dropdown for selecting a color
   colorSelector = createSelect();
