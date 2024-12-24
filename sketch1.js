@@ -65,10 +65,16 @@ function setup() {
   colorSelector.option("green");
   colorSelector.changed(updateColor);
   colorSelector.position(10, 10);
-  colorSelector.style("font-size", "30px"); // Larger font size
-  colorSelector.style("width", "200px"); // Wider dropdown
-  colorSelector.style("height", "50px"); // Taller dropdown
-  colorSelector.style("padding", "10px"); // Add padding
+  colorSelector.style("font-size", "60px"); // Larger font size
+  colorSelector.style("width", "400px"); // Wider dropdown
+  colorSelector.style("height", "100px"); // Taller dropdown
+  colorSelector.style("padding", "20px"); // Add padding
+  colorSelector.style("border", "2px solid black"); // Add a border
+  colorSelector.style("outline", "2px solid blue"); // Add an outline
+  colorSelector.style("background-color", "#f0f0f0"); // Set background color
+  colorSelector.style("border-radius", "10px"); // Add rounded corners
+  colorSelector.style("box-shadow", "5px 5px 15px rgba(0, 0, 0, 0.2)"); // Add a shadow effect
+
 
   // Create a dropdown for selecting a number (1-8)
   numberSelector = createSelect();
@@ -76,15 +82,21 @@ function setup() {
     numberSelector.option(i);
   }
   numberSelector.changed(updateNumber);
-  numberSelector.position(10, 70);
-  numberSelector.style("font-size", "30px"); // Larger font size
-  numberSelector.style("width", "200px"); // Wider dropdown
-  numberSelector.style("height", "50px"); // Taller dropdown
-  numberSelector.style("padding", "10px"); // Add padding
+  numberSelector.position(10, 140);
+  numberSelector.style("font-size", "60px"); // Larger font size
+  numberSelector.style("width", "400px"); // Wider dropdown
+  numberSelector.style("height", "100px"); // Taller dropdown
+  numberSelector.style("padding", "20px"); // Add padding
+  numberSelector.style("border", "2px solid black"); // Add a border
+  numberSelector.style("outline", "2px solid blue"); // Add an outline
+  numberSelector.style("background-color", "#f0f0f0"); // Set background color
+  numberSelector.style("border-radius", "10px"); // Add rounded corners
+  numberSelector.style("box-shadow", "5px 5px 15px rgba(0, 0, 0, 0.2)"); // Add a shadow effect
+
 
   // Create a "Show Fortune" button
   speakButton = createButton("Choose and press to Show Fortune");
-  speakButton.position(230, 10);
+  speakButton.position(430, 10);
   speakButton.style("font-size", "30px"); // Larger font size
   speakButton.style("width", "250px"); // Wider button
   speakButton.style("height", "250px"); // Taller button
