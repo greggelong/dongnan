@@ -67,7 +67,7 @@ function setup() {
   colorSelector.position(10, 10);
   colorSelector.style("font-size", "60px"); // Larger font size
   colorSelector.style("width", "400px"); // Wider dropdown
-  colorSelector.style("height", "100px"); // Taller dropdown
+  colorSelector.style("height", "120px"); // Taller dropdown
   colorSelector.style("padding", "20px"); // Add padding
   colorSelector.style("border", "2px solid black"); // Add a border
   colorSelector.style("outline", "2px solid blue"); // Add an outline
@@ -85,7 +85,7 @@ function setup() {
   numberSelector.position(10, 140);
   numberSelector.style("font-size", "60px"); // Larger font size
   numberSelector.style("width", "400px"); // Wider dropdown
-  numberSelector.style("height", "100px"); // Taller dropdown
+  numberSelector.style("height", "120px"); // Taller dropdown
   numberSelector.style("padding", "20px"); // Add padding
   numberSelector.style("border", "2px solid black"); // Add a border
   numberSelector.style("outline", "2px solid blue"); // Add an outline
