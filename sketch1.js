@@ -140,17 +140,18 @@ function updateNumber() {
 }
 
 function showFortune() {
-  let fortuneIndex;
-
+  let fortuneIndex = int(random(fortunes.length))
+  /*
   if (selectedColor === "red" || selectedColor === "yellow") {
     fortuneIndex = selectedNumber - 1;
   } else {
     fortuneIndex = (selectedNumber - 1) * 2;
   }
+    */
 
   // Get the corresponding fortunes
-  chineseText = cfortunes[fortuneIndex % cfortunes.length];
-  englishText = fortunes[fortuneIndex % fortunes.length];
+  chineseText = cfortunes[fortuneIndex];
+  englishText = fortunes[fortuneIndex];
 
   // Reset scrolling
   resetScroll();
