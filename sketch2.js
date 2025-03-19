@@ -55,7 +55,7 @@ function setup() {
   angleMode(DEGREES);
   rectMode(CENTER);
   pixelDensity(1);
-  img.resize(width / 2, 0);
+  img.resize(width / 1.3, 0);
 
   // Create a dropdown for selecting a color
   colorSelector = createSelect();
